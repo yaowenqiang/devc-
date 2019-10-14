@@ -5,5 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	printf("hello world");
+	int i;
+	int b[] = {1,2,3,4};
+	
+
+	for(i=0; i < 100; i ++) {
+		printf("%d\n",i);
+	}
 	return 0;
 }
